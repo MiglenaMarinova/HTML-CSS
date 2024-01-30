@@ -1,0 +1,76 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+body{
+    margin: 0;
+    padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: Georgia, serif;
+}
+
+ul {
+    list-style: square;
+}
+
+ul ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid rgb(221, 221, 221);
+    padding-left: 2em;
+}
+
+blockquote p:nth-child(3) {
+    text-align: end;
+}
+
+table {    
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    display: inline-table;
+}
+
+table tr:first-child{
+    background-color: dimgray;
+}
+
+th, td{
+    border: 1px solid dimgray;
+
+}
+
+table tr:nth-child(2n){
+    background-color: lightgray;
+}
+
+
+
+/* •	Use Helvetica, sans-serif font-family for the document
+o	Make the font-size 16px
+o	Change the line-height to 1.5
+•	Use Georgia, serif font-family for the headings
+•	Use headings from h1 to h6
+•	Create a HTML table and style it
+•	Use blockquote tag
+o	Style its left border with rgb(221,221,221) color
+o	Style its font to italic
+•	Use hr tag for the horizontal lines
+ */
