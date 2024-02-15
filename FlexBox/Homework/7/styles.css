@@ -1,0 +1,124 @@
+
+/* •	The entire content must be in div container with class page (div.page)
+•	The page container (div) must be flexed and wrapped
+•	Image background color should be rgb(255, 255, 255)
+•	Blockquote font family must be Georgia, serif
+•	The anchors text color in the aside section must be rgb(0, 153, 0)
+•	Page headings font family must be Georgia, serif */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+p, ul {
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1{font-size: 2.8em;}
+h2{font-size: 2.2em;}
+h3{font-size: 1.6em;}
+
+.align-left{
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.align-right{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+img[class*="align"] {
+    border: 3px solid #333;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.3);
+}
+
+blockquote[class*="align"]{
+    opacity: 0.7;
+    font-style: italic;
+    max-width: 60%;
+
+}
+
+blockquote .author{
+    text-align: right;
+}
+
+blockquote.align-right{
+    padding-left: 1em;
+    border-left: 1px solid #ccc;
+}
+
+blockquote.align-left{
+    padding-right: 1em;
+    border-right: 1px solid #ccc;
+}
+
+.page{
+    max-width: 50em;
+    margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2em;
+}
+
+.site-header{
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+}
+
+.site-main{
+    flex: 0 0 60%;
+}
+.site-aside{
+    flex: 1 0 auto;
+}
+
+.site-title{
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;  
+    /* or nav{ margin-left: auto;} */
+}
+nav ul{
+    display: flex;
+}
+
+nav li {
+    list-style: none outside;
+    padding: 0.5em;
+}
+
+nav a{
+  display: block;
+  padding: 0.5em 0.5em; 
+  text-decoration: none;
+   color: #090;
+}
+
+aside ul li {
+    list-style-position: inside;
+}
+
+
