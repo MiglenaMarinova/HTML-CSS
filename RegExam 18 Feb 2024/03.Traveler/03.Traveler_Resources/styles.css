@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 18px/1.5 Karla;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cormorant Infant";
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.page-section {
+    padding: 2em;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body > header > nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.page-header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+.page-header nav li {
+    list-style: none outside;
+    padding: 0 0.5em;
+}
+
+.page-header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.page-section.banner{
+    color: #fff;
+}
+.page-section.banner h2{
+    font-size: 90px;
+    padding: 1em 0 1.5em 0;
+    text-align: center;
+}
+
+.page-section.banner p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 6em;
+}
+
+.page-section.costumer h3{
+    font-style: italic;
+    font-size: 58px;
+    line-height: 0.8;
+    padding: 1.5em 2em;
+   
+}
+
+.page-section.costumer p{
+    font-size: 12px;
+    padding: 0.5em 10em;
+    
+}
+
+
+body > section.page-section.support > div > p:nth-child(1){
+    font-weight: 600;
+    padding: 2em;
+}
+
+body > section.page-section.support > div > p:nth-child(2){
+    font-size: 16px;
+    padding-bottom: 2em;
+
+}
+
+
+.page-section.content,
+.page-section.costumer{
+    background: #F8F0E9;
+    color: black;
+}
+
+.page-section.guide,
+.page-section.support{
+    background: #E14747;
+    color: #fff;
+    text-align: center;
+}
+
+.page-footer{
+    background: #352B2A;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em
+}
+
+.button{
+    
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    color: black;
+}
+
+
+
+body > section.page-section.content .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 620px;
+    gap: 3em;
+}
+
+body > section.page-section.content > div > h2{
+    font-size: 60px;
+    line-height: 1;
+}
+
+
+body > section.page-section.content > div > div.buttons > div:nth-child(1){
+    text-align: start;
+}
+
+body > section.page-section.content > div > div.buttons > div:nth-child(2){
+    text-align: center;
+}
+
+body > section.page-section.content > div > div.buttons > div:nth-child(1) > a,
+body > section.page-section.content > div > div.buttons > div:nth-child(2) > a{
+    padding: 0.5em 1em;
+}
+
+body > section.page-section.guide > div > div{
+    padding: 3em;
+}
+
+body > section.page-section.guide > div > h3{
+    font-size: 67px;
+    margin: 1em;
+}
+
+body > section.page-section.guide > div > p{
+    padding: 3em;
+}
+
+
+body > section.page-section.guide > div > div > a{
+    text-decoration: none;
+    color: black;
+    border-radius:5.5em;
+    background: #FAD87A;
+    padding: 1em;
+}
+
+.page-footer{
+    padding: 3em 5em;
+}
+
+.page-footer .logo{
+    display: block;
+    width: 60px;
+    height: 50px;
+}
+
+body > footer > p:nth-child(2){
+    padding-top: 2em;
+}
+
+body > footer > p:nth-child(3){
+    padding-top: 1em;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
